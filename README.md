@@ -49,3 +49,5 @@ The app operates on a set of predefined locations in Sargodha:
 2. Compile the Java file using a Java compiler:
    ```bash
    javac RouteOptimizationApp.java
+   java RouteOptimizationApp
+
