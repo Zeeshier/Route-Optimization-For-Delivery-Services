@@ -8,15 +8,15 @@ import java.util.Map;
 
 public class RouteOptimizationApp {
 
-    // Map location names to indices
+    
     private static final Map<String, Integer> locationIndex = new HashMap<>();
     private static final int[][] distances = {
-            // Satellite University NoorPur Khushab Shaheen
-            /* Satellite */ { 0, 5, 12, 15, 8 },
-            /* University */ { 5, 0, 8, 10, 6 },
-            /* NoorPur */ { 12, 8, 0, 7, 10 },
-            /* Khushab */ { 15, 10, 7, 0, 5 },
-            /* Shaheen */ { 8, 6, 10, 5, 0 }
+            
+             { 0, 5, 12, 15, 8 },
+             { 5, 0, 8, 10, 6 },
+             { 12, 8, 0, 7, 10 },
+             { 15, 10, 7, 0, 5 },
+             { 8, 6, 10, 5, 0 }
     };
 
     static {
